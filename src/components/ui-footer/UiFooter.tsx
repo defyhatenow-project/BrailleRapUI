@@ -39,7 +39,7 @@ const UiFooter = (props:IUiHeader)=>{
       </div>
       <div className='br-ui-footer__text-wrapper'>
         <Typography>
-          Made by passionate people in Bhutan with love ♡
+        BrailleRAP UI Made by passionate people in Bhutan with love ♡
         </Typography>
       </div>
     </div>

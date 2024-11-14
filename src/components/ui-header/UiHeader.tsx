@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { Typography } from '@mui/material'
 import BrailleIcon from '../../assets/images/braille_icon.png'
+import defyhatenowLogo from '../../assets/images/dhn-newlogo.jpg'
 
 interface IUiHeader {
   className?:string
@@ -19,9 +20,15 @@ const UiHeader = (props:IUiHeader)=>{
         loading="lazy"
       />
       <Typography variant='h3'>
-      BRAILLE RAP BHUTAN<br/>
-      འབུར་ཡིག་་བཏོན་ནི འབྲུག་ཡུལ་
+      BrailleRAP<br/>
       </Typography>
+      <img
+        className='br-ui-header__logo'
+        src={`${defyhatenowLogo}?w=50&h=50&fit=crop&auto=format`}
+        srcSet={`${defyhatenowLogo}?w=50&h=50&fit=crop&auto=format&dpr=2 2x`}
+        alt='defyhatenow logo'
+        loading="lazy"
+      />
     </div>
   )
 }
