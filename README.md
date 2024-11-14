@@ -18,3 +18,4 @@ yarn dev
 - type text in the input area and hit 'generate'
 - hit 'print' and select the connected printer in the popup dialog
 - wait for the result
+
