@@ -11,6 +11,7 @@
 .yarnrc.yml
 
 node_modules
+dist
 
 # Logs
 logs

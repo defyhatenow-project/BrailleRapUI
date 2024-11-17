@@ -1,7 +1,7 @@
 {
   "name": "braille-rap-ui",
   "private": true,
-  "version": "0.0.13",
+  "version": "0.0.14",
   "awsConfig": {
     "distributionID": "E399RXIVWYT3MQ",
     "bucketName": "braille-rap-ui"
